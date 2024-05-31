@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    background-color: #928585; /* Light background color */
+  }
+  
+  .header, .nav, .main, .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  h1, h2, h3 {
+    margin: 10px 0;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    color: bisque;
+  }
+  
+  .nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+   color: bisque;
+    
+  }
+  
+  .main {
+    width: 70%;
+  }
+   p{
+    text-align: justify;
+  width: 90%;
+  
+  }
+  
+  .about-me {
+    background-color: #f2f2f2; /* Light gray background for the section */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease-in-out forwards;
+  }
+  
+  .info, .hobbies, .skills {
+    margin-bottom: 15px;
+  }
+  
+  .info ul, .skills ul {
+    margin-left: 20px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #eee;
+    padding: 10px 0;
+    color: #000;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+    
+  
+  /* Hover effect for navigation links (example) */
+  .nav a:hover {
+    color: #333;
+  }
+  
+  /* Animation for the "About Me" section */
+  @keyframes slideIn {
+    from {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
